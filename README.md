@@ -12,5 +12,8 @@
 
            Liuliu910323 409850053劉子瑜
            
+
+Design step:
+    step 1:Start Project and Create Database (Done)          
            
 
