@@ -28,6 +28,10 @@
     width: 100%;
 }
 
+.tbl-30{
+    width: 30%;
+}
+
 table tr th {
     border-bottom: 1px solid black;
     padding: 1%;
@@ -38,15 +42,50 @@ table tr td {
     padding: 1%;
 }
 
-.btn primary {
+.btn-primary {
     background-color: #74b9ff;
     padding: 1%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
 }
-/* CSS for Menu*/
+    .btn-primary:hover {
+        background-color: #0984e3;
+    }
+.btn-danger {
+    background-color: #ff7675;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .btn-danger:hover {
+        background-color: #d63031;
+    }
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+
+.btn-secondary {
+    background-color: #55efc4;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+   .btn-secondary:hover {
+        background-color: #00b894;
+    }
+    /* CSS for Menu*/
 
 
 
-.menu {
+    .menu {
     border: 1px solid gray;
 }
 
@@ -86,4 +125,12 @@ table tr td {
 .footer {
     background-color: #00cec9;
     color: snow;
+}
+
+/* CSS for login*/
+.login{
+    border:1px solid gray;
+    width:20%;
+    margin: 10% auto;
+    padding: 2%;
 }
