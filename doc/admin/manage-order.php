@@ -8,7 +8,7 @@
 		
 
 				<!--Button to add Order<-->
-				<a href="#" class="btn-primary">Add Order</a>
+				
 
 				<br/><br/><br/>
 
