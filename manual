@@ -1,4 +1,10 @@
 step1:download xampp
 
 
-step2:download the code file rename the doc->food-order
+step2:download the code file rename the doc file->food-order
+
+step3:Move the food-order file to c/xampp/htdoc/
+
+step4:Open your xampp start Apache and MYSQL
+
+step5:Open your Browser enter http://localhost/phpmyadmin/
