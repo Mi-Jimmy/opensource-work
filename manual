@@ -1,17 +1,10 @@
 Pre-work:
-
 step1:download xampp
-
 step2:download the code file rename the doc file->food-order
-
 step3:Move the food-order file to c/xampp/htdoc/
-
 step4:Open your xampp start Apache and MYSQL
-
 step5:Open your Browser enter http://localhost/phpmyadmin/
-
 step6:Build a database it is called food-order import the food-order.sql it is in the schema_design
-
 step7:Go to tbl_admin please select sql enter the code
 SQL code:
 INSERT INTO tbl_admin SET
@@ -21,9 +14,7 @@ INSERT INTO tbl_admin SET
 step8:please enter http://localhost/food-order/admin/ and the username is:admin password is:admin    
 
 Function:
-
 Back-end
-
 Admin:Add Admin 
       Change Password
       Update Admin
@@ -33,4 +24,17 @@ Category:Add Category
          Update Category
          Delete Category
 Food:Add food
-     Update
+     Enter the food title, food description,food price
+     Update food image
+     Choose category, food featued and active 
+     Update Admin
+     Delete Admin
+     
+Order:Update order
+      Could update the stauts of order
+
+front end
+home: back to the home page
+categories: view food type
+food: show all food
+search : search food
