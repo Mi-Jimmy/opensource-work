@@ -150,7 +150,7 @@
 						//image selected
 						//A. rename the Image
 
-						$ext=end(explode('.',$image_name));
+						$ext= end(explode('.',$image_name));
 						$image_name="Food-Name-".rand(000,999).'.'.$ext;
 
 						//B.upload image
@@ -200,7 +200,7 @@
 				//execute
 				$res2=mysqli_query($conn,$sql2);
 				//4.Redirect
-				if(res2==true)
+				if($res2==true)
 				{
 					//data inserted succesfully
 					$_SESSION['add']="<div class='success'>Food Added succesfully</div>";
